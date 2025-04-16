@@ -36,3 +36,20 @@
 .signup-form input:focus {
     border-color: #f4a261;
 }
+
+/* Signup Button */
+.signup-form button {
+    padding: 10px;
+    font-size: 1.1em;
+    background: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+.signup-form button:hover {
+    background: #e76f51;
+}
